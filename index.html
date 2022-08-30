@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="content_container">
+
+        <h1>My contact application</h1>
+
+        <div class="application" id="application">
+            <h2 id="header">My contacts</h2>
+            <button id="toggle_button">+</button>
+
+            <div class="my_contacts">
+
+                <div id="contact_list"></div>
+
+            </div>
+
+            <div class="add_new_contacts">
+                <div id="form" class="add_new_contacts_form">
+                    <form>
+
+                        <label for="firstname">Firstname</label>
+                        <input id="firstname" type="text" placeholder="firstname">
+                        <label for="lastname">Lastname</label>
+                        <input id="lastname" type="text" placeholder="lastname">
+                        <label for="phonenumber">Phonenumber</label>
+                        <input id="phonenumber" type="number" placeholder="+46">
+                    </form>
+                    <button id="add_new_contact_button">Add new contact</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
