@@ -1,1 +1,1 @@
-A simple contact application created with javascript. Let's you add, edit and delete contacts to your contact list.
+A simple contact application created in javascript🚀 The application let's you add, edit and delete contacts in your contact list.
